@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringBootCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cloud/spring-boot-cloud.iml" filepath="$PROJECT_DIR$/spring-boot-cloud/spring-boot-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learn/spring-boot-learn.iml" filepath="$PROJECT_DIR$/spring-boot-learn/spring-boot-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" />
     </modules>

@@ -2,12 +2,6 @@
 server:
   port: 8003
 
-spring:
-  profiles:
-    active: dev
-  session:
-    store-type: redis
-
 eureka:
   client:
     register-with-eureka: false

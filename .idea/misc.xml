@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/spring-boot-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-learn/pom.xml" />
       </list>
     </option>
   </component>

@@ -22,13 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="spring-boot-boot" />
+        <module name="spring-boot-learn" />
         <module name="spring-cloud-consumer" />
         <module name="spring-cloud-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-boot" target="1.8" />
       <module name="spring-boot-cloud" target="1.6" />
-      <module name="spring-cloud-consumer" target="1.8" />
+      <module name="spring-boot-learn" target="1.8" />
+      <module name="spring-cloud-consumer" target="1.6" />
       <module name="spring-cloud-producer" target="1.6" />
     </bytecodeTargetLevel>
   </component>
