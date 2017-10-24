@@ -3,3 +3,7 @@
 /spring-cloud-consumer/target/
 /spring-cloud-producer/target/
 /spring-boot-cloud/target/
+/spring-boot-cloud/spring-boot-cloud.iml
+/spring-cloud-producer/spring-cloud-producer.iml
+/spring-boot-learn/spring-boot-learn.iml
+/spring-cloud-consumer/spring-cloud-consumer.iml
