@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>spring-boot-shared</artifactId>
+    <groupId>spring.boot.cloud</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <description>通用二方库,尽量保持简单，不依赖第三方库</description>
+    <properties>
+        <lombok-version>1.16.18</lombok-version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok-version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

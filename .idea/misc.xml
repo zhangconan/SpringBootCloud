@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-shared/pom.xml" />
       </list>
     </option>
   </component>

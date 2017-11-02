@@ -7,3 +7,6 @@
 /spring-cloud-producer/spring-cloud-producer.iml
 /spring-boot-learn/spring-boot-learn.iml
 /spring-cloud-consumer/spring-cloud-consumer.iml
+/spring-boot-shared/target/
+/spring-boot-dubbo/target/
+/spring-boot-dubbo-provider/target/

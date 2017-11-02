@@ -24,14 +24,18 @@
         <processorPath useClasspath="true" />
         <module name="spring-boot-boot" />
         <module name="spring-boot-learn" />
+        <module name="spring-boot-shared" />
         <module name="spring-cloud-consumer" />
         <module name="spring-cloud-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-boot" target="1.8" />
-      <module name="spring-boot-cloud" target="1.6" />
+      <module name="spring-boot-cloud" target="1.8" />
+      <module name="spring-boot-dubbo" target="1.6" />
+      <module name="spring-boot-dubbo-provider" target="1.6" />
       <module name="spring-boot-learn" target="1.8" />
+      <module name="spring-boot-shared" target="1.5" />
       <module name="spring-cloud-consumer" target="1.8" />
       <module name="spring-cloud-producer" target="1.8" />
     </bytecodeTargetLevel>
