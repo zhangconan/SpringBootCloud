@@ -1,7 +1,7 @@
 package com.zkn.spring.dubbo.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.zkn.spring.shared.service.UserService;
+import org.springframework.stereotype.Service;
 
 /**
  * Created by zkn on 2017/11/2.

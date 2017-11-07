@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 /**
- * Created by zkn on 2017/11/3.
+ *
+ * @author zkn
+ * @date 2017/11/3
  */
 @SpringBootApplication
 @ImportResource(locations = "classpath:dubbo/consumer/dubbo-consumer.xml")

@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85bf900-954e-44f9-9235-321ded634c20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/controller/RedisTestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/config/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/config/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-learn/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-boot-learn/src/main/resources/application.yml" />
     </list>
     <ignored path="SpringBootCloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,68 +42,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-cloud/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dubbo-provider.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="155">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dubbo-consumer.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dubbo-consumer.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="355">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml">
+      <file leaf-file-name="IZkStateListener.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/jar/mvn/repository/com/101tec/zkclient/0.9/zkclient-0.9-sources.jar!/org/I0Itec/zkclient/IZkStateListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="-247">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shared/pom.xml">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-cloud-consumer.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3429">
-              <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-boot-cloud.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-cloud/spring-boot-cloud.iml">
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/dubbo/config/annotation/Service.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -109,21 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/pom.xml">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-shared/src/main/java/com/zkn/spring/shared/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-boot-learn.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-learn/spring-boot-learn.iml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="211">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="61" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -144,7 +129,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="729">
               <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="e#0#2569#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,9 +142,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#2036#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,7 +152,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding />
+              <folding>
+                <element signature="e#0#3474#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,9 +163,86 @@
       <file leaf-file-name="RedisTemplate.java" pinned="false" current-in-tab="false">
         <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="1512">
               <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
-              <folding />
+              <folding>
+                <element signature="e#0#36150#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6093#6094#0" expanded="false" />
+                <element signature="e#6144#6145#0" expanded="false" />
+                <element signature="e#12518#12519#0" expanded="false" />
+                <element signature="e#12553#12554#0" expanded="false" />
+                <element signature="e#13281#13282#0" expanded="false" />
+                <element signature="e#13301#13302#0" expanded="false" />
+                <element signature="e#13550#13551#0" expanded="false" />
+                <element signature="e#13580#13581#0" expanded="false" />
+                <element signature="e#13871#13872#0" expanded="false" />
+                <element signature="e#13918#13919#0" expanded="false" />
+                <element signature="e#14164#14165#0" expanded="false" />
+                <element signature="e#14201#14202#0" expanded="false" />
+                <element signature="e#14727#14728#0" expanded="false" />
+                <element signature="e#14758#14759#0" expanded="false" />
+                <element signature="e#15136#15137#0" expanded="false" />
+                <element signature="e#15178#15179#0" expanded="false" />
+                <element signature="e#15429#15430#0" expanded="false" />
+                <element signature="e#15467#15468#0" expanded="false" />
+                <element signature="e#15639#15640#0" expanded="false" />
+                <element signature="e#15666#15667#0" expanded="false" />
+                <element signature="e#15923#15924#0" expanded="false" />
+                <element signature="e#15963#15964#0" expanded="false" />
+                <element signature="e#16141#16142#0" expanded="false" />
+                <element signature="e#16170#16171#0" expanded="false" />
+                <element signature="e#16315#16316#0" expanded="false" />
+                <element signature="e#16346#16347#0" expanded="false" />
+                <element signature="e#16613#16614#0" expanded="false" />
+                <element signature="e#16662#16663#0" expanded="false" />
+                <element signature="e#16813#16814#0" expanded="false" />
+                <element signature="e#16846#16847#0" expanded="false" />
+                <element signature="e#17312#17313#0" expanded="false" />
+                <element signature="e#17342#17343#0" expanded="false" />
+                <element signature="e#17715#17716#0" expanded="false" />
+                <element signature="e#17762#17763#0" expanded="false" />
+                <element signature="e#17928#17929#0" expanded="false" />
+                <element signature="e#17971#17972#0" expanded="false" />
+                <element signature="e#18256#18257#0" expanded="false" />
+                <element signature="e#18301#18302#0" expanded="false" />
+                <element signature="e#22964#22965#0" expanded="false" />
+                <element signature="e#23007#23008#0" expanded="false" />
+                <element signature="e#24562#24563#0" expanded="false" />
+                <element signature="e#24602#24603#0" expanded="false" />
+                <element signature="e#25279#25280#0" expanded="false" />
+                <element signature="e#25320#25321#0" expanded="false" />
+                <element signature="e#25623#25624#0" expanded="false" />
+                <element signature="e#25667#25668#0" expanded="false" />
+                <element signature="e#25877#25878#0" expanded="false" />
+                <element signature="e#25927#25928#0" expanded="false" />
+                <element signature="e#26081#26082#0" expanded="false" />
+                <element signature="e#26121#26122#0" expanded="false" />
+                <element signature="e#26728#26729#0" expanded="false" />
+                <element signature="e#26787#26788#0" expanded="false" />
+                <element signature="e#26981#26982#0" expanded="false" />
+                <element signature="e#27022#27023#0" expanded="false" />
+                <element signature="e#27607#27608#0" expanded="false" />
+                <element signature="e#27648#27649#0" expanded="false" />
+                <element signature="e#29790#29791#0" expanded="false" />
+                <element signature="e#29832#29833#0" expanded="false" />
+                <element signature="e#31725#31726#0" expanded="false" />
+                <element signature="e#31787#31788#0" expanded="false" />
+                <element signature="e#32144#32145#0" expanded="false" />
+                <element signature="e#32205#32206#0" expanded="false" />
+                <element signature="e#32260#32261#0" expanded="false" />
+                <element signature="e#32320#32321#0" expanded="false" />
+                <element signature="e#32518#32519#0" expanded="false" />
+                <element signature="e#32579#32580#0" expanded="false" />
+                <element signature="e#33163#33164#0" expanded="false" />
+                <element signature="e#33223#33224#0" expanded="false" />
+                <element signature="e#33704#33705#0" expanded="false" />
+                <element signature="e#33760#33761#0" expanded="false" />
+                <element signature="e#33915#33916#0" expanded="false" />
+                <element signature="e#33969#33970#0" expanded="false" />
+                <element signature="e#36109#36110#0" expanded="false" />
+                <element signature="e#36146#36147#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,7 +257,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisTestController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedisTestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/controller/RedisTestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
@@ -206,9 +272,12 @@
       <file leaf-file-name="ValueOperations.java" pinned="false" current-in-tab="false">
         <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="864">
               <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#5442#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,9 +285,12 @@
       <file leaf-file-name="RedisOperations.java" pinned="false" current-in-tab="false">
         <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="11853">
               <caret line="465" column="26" selection-start-line="465" selection-start-column="26" selection-end-line="465" selection-end-column="26" />
-              <folding />
+              <folding>
+                <element signature="e#0#19548#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,9 +298,34 @@
       <file leaf-file-name="DefaultValueOperations.java" pinned="false" current-in-tab="false">
         <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="3510">
               <caret line="168" column="57" selection-start-line="168" selection-start-column="57" selection-end-line="168" selection-end-column="57" />
-              <folding />
+              <folding>
+                <element signature="e#0#7224#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1266#1267#0" expanded="false" />
+                <element signature="e#1288#1289#0" expanded="false" />
+                <element signature="e#1458#1459#0" expanded="false" />
+                <element signature="e#1498#1499#0" expanded="false" />
+                <element signature="e#1735#1736#0" expanded="false" />
+                <element signature="e#1788#1789#0" expanded="false" />
+                <element signature="e#1992#1993#0" expanded="false" />
+                <element signature="e#2042#2043#0" expanded="false" />
+                <element signature="e#2253#2254#0" expanded="false" />
+                <element signature="e#2303#2304#0" expanded="false" />
+                <element signature="e#2919#2920#0" expanded="false" />
+                <element signature="e#2976#2977#0" expanded="false" />
+                <element signature="e#3423#3424#0" expanded="false" />
+                <element signature="e#3465#3466#0" expanded="false" />
+                <element signature="e#4446#4447#0" expanded="false" />
+                <element signature="e#4490#4491#0" expanded="false" />
+                <element signature="e#6579#6580#0" expanded="false" />
+                <element signature="e#6622#6623#0" expanded="false" />
+                <element signature="e#6869#6870#0" expanded="false" />
+                <element signature="e#6927#6928#0" expanded="false" />
+                <element signature="e#7152#7153#0" expanded="false" />
+                <element signature="e#7203#7204#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -236,9 +333,70 @@
       <file leaf-file-name="JedisConnection.java" pinned="false" current-in-tab="false">
         <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="29889">
               <caret line="1220" column="16" selection-start-line="1220" selection-start-column="16" selection-end-line="1220" selection-end-column="16" />
-              <folding />
+              <folding>
+                <element signature="e#0#117112#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6654#6655#0" expanded="false" />
+                <element signature="e#6693#6694#0" expanded="false" />
+                <element signature="e#6747#6748#0" expanded="false" />
+                <element signature="e#6775#6776#0" expanded="false" />
+                <element signature="e#7290#7291#0" expanded="false" />
+                <element signature="e#7317#7318#0" expanded="false" />
+                <element signature="e#7569#7570#0" expanded="false" />
+                <element signature="e#7608#7609#0" expanded="false" />
+                <element signature="e#9637#9638#0" expanded="false" />
+                <element signature="e#9667#9668#0" expanded="false" />
+                <element signature="e#9702#9703#0" expanded="false" />
+                <element signature="e#9736#9737#0" expanded="false" />
+                <element signature="e#10982#10983#0" expanded="false" />
+                <element signature="e#11001#11002#0" expanded="false" />
+                <element signature="e#11179#11180#0" expanded="false" />
+                <element signature="e#11211#11212#0" expanded="false" />
+                <element signature="e#11244#11245#0" expanded="false" />
+                <element signature="e#11276#11277#0" expanded="false" />
+                <element signature="e#12421#12422#0" expanded="false" />
+                <element signature="e#12469#12470#0" expanded="false" />
+                <element signature="e#12674#12675#0" expanded="false" />
+                <element signature="e#12725#12726#0" expanded="false" />
+                <element signature="e#12788#12789#0" expanded="false" />
+                <element signature="e#12816#12817#0" expanded="false" />
+                <element signature="e#16142#16143#0" expanded="false" />
+                <element signature="e#16163#16164#0" expanded="false" />
+                <element signature="e#62574#62575#0" expanded="false" />
+                <element signature="e#62623#62624#0" expanded="false" />
+                <element signature="e#62863#62864#0" expanded="false" />
+                <element signature="e#62906#62907#0" expanded="false" />
+                <element signature="e#64812#64813#0" expanded="false" />
+                <element signature="e#64857#64858#0" expanded="false" />
+                <element signature="e#71079#71080#0" expanded="false" />
+                <element signature="e#71127#71128#0" expanded="false" />
+                <element signature="e#85911#85912#0" expanded="false" />
+                <element signature="e#85937#85938#0" expanded="false" />
+                <element signature="e#85971#85972#0" expanded="false" />
+                <element signature="e#86033#86034#0" expanded="false" />
+                <element signature="e#100645#100646#0" expanded="false" />
+                <element signature="e#100677#100678#0" expanded="false" />
+                <element signature="e#106228#106229#0" expanded="false" />
+                <element signature="e#106264#106265#0" expanded="false" />
+                <element signature="e#106465#106466#0" expanded="false" />
+                <element signature="e#106532#106533#0" expanded="false" />
+                <element signature="e#107325#107326#0" expanded="false" />
+                <element signature="e#107364#107365#0" expanded="false" />
+                <element signature="e#107616#107617#0" expanded="false" />
+                <element signature="e#107653#107654#0" expanded="false" />
+                <element signature="e#108520#108521#0" expanded="false" />
+                <element signature="e#108559#108560#0" expanded="false" />
+                <element signature="e#108810#108811#0" expanded="false" />
+                <element signature="e#108846#108847#0" expanded="false" />
+                <element signature="e#109652#109653#0" expanded="false" />
+                <element signature="e#109691#109692#0" expanded="false" />
+                <element signature="e#109957#109958#0" expanded="false" />
+                <element signature="e#109993#109994#0" expanded="false" />
+                <element signature="e#110862#110863#0" expanded="false" />
+                <element signature="e#110901#110902#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,7 +407,59 @@
             <state relative-caret-position="7560">
               <caret line="343" column="20" selection-start-line="343" selection-start-column="20" selection-end-line="343" selection-end-column="20" />
               <folding>
-                <element signature="e#0#18753#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#5215#5216#0" expanded="false" />
+                <element signature="e#5248#5249#0" expanded="false" />
+                <element signature="e#5467#5468#0" expanded="false" />
+                <element signature="e#5525#5526#0" expanded="false" />
+                <element signature="e#5800#5801#0" expanded="false" />
+                <element signature="e#5833#5834#0" expanded="false" />
+                <element signature="e#6630#6631#0" expanded="false" />
+                <element signature="e#6671#6672#0" expanded="false" />
+                <element signature="e#8012#8013#0" expanded="false" />
+                <element signature="e#8036#8037#0" expanded="false" />
+                <element signature="e#12851#12852#0" expanded="false" />
+                <element signature="e#12873#12874#0" expanded="false" />
+                <element signature="e#13002#13003#0" expanded="false" />
+                <element signature="e#13033#13034#0" expanded="false" />
+                <element signature="e#13179#13180#0" expanded="false" />
+                <element signature="e#13206#13207#0" expanded="false" />
+                <element signature="e#13321#13322#0" expanded="false" />
+                <element signature="e#13341#13342#0" expanded="false" />
+                <element signature="e#13500#13501#0" expanded="false" />
+                <element signature="e#13522#13523#0" expanded="false" />
+                <element signature="e#13691#13692#0" expanded="false" />
+                <element signature="e#13722#13723#0" expanded="false" />
+                <element signature="e#13849#13850#0" expanded="false" />
+                <element signature="e#13867#13868#0" expanded="false" />
+                <element signature="e#14004#14005#0" expanded="false" />
+                <element signature="e#14027#14028#0" expanded="false" />
+                <element signature="e#14136#14137#0" expanded="false" />
+                <element signature="e#14159#14160#0" expanded="false" />
+                <element signature="e#14313#14314#0" expanded="false" />
+                <element signature="e#14346#14347#0" expanded="false" />
+                <element signature="e#14438#14439#0" expanded="false" />
+                <element signature="e#14459#14460#0" expanded="false" />
+                <element signature="e#14574#14575#0" expanded="false" />
+                <element signature="e#14603#14604#0" expanded="false" />
+                <element signature="e#14736#14737#0" expanded="false" />
+                <element signature="e#14757#14758#0" expanded="false" />
+                <element signature="e#14905#14906#0" expanded="false" />
+                <element signature="e#14934#14935#0" expanded="false" />
+                <element signature="e#15046#15047#0" expanded="false" />
+                <element signature="e#15070#15071#0" expanded="false" />
+                <element signature="e#15237#15238#0" expanded="false" />
+                <element signature="e#15272#15273#0" expanded="false" />
+                <element signature="e#15386#15387#0" expanded="false" />
+                <element signature="e#15407#15408#0" expanded="false" />
+                <element signature="e#15800#15801#0" expanded="false" />
+                <element signature="e#15824#15825#0" expanded="false" />
+                <element signature="e#16050#16051#0" expanded="false" />
+                <element signature="e#16085#16086#0" expanded="false" />
+                <element signature="e#16450#16451#0" expanded="false" />
+                <element signature="e#16491#16492#0" expanded="false" />
+                <element signature="e#17120#17121#0" expanded="false" />
+                <element signature="e#17156#17157#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -260,7 +470,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-              <folding />
+              <folding>
+                <element signature="e#0#8640#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,7 +483,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#482#483#0" expanded="false" />
+                <element signature="e#542#543#0" expanded="false" />
+                <element signature="e#2871#2872#0" expanded="false" />
+                <element signature="e#2947#2948#0" expanded="false" />
+                <element signature="e#3298#3299#0" expanded="false" />
+                <element signature="e#3357#3358#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -280,7 +501,25 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#6756#6757#0" expanded="false" />
+                <element signature="e#6791#6792#0" expanded="false" />
+                <element signature="e#7422#7423#0" expanded="false" />
+                <element signature="e#7456#7457#0" expanded="false" />
+                <element signature="e#7908#7909#0" expanded="false" />
+                <element signature="e#7936#7937#0" expanded="false" />
+                <element signature="e#8001#8002#0" expanded="false" />
+                <element signature="e#8050#8051#0" expanded="false" />
+                <element signature="e#8111#8112#0" expanded="false" />
+                <element signature="e#8169#8170#0" expanded="false" />
+                <element signature="e#8231#8232#0" expanded="false" />
+                <element signature="e#8289#8290#0" expanded="false" />
+                <element signature="e#10034#10035#0" expanded="false" />
+                <element signature="e#10085#10086#0" expanded="false" />
+                <element signature="e#10497#10498#0" expanded="false" />
+                <element signature="e#10576#10577#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -291,8 +530,78 @@
             <state relative-caret-position="405">
               <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding>
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#0#5331#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1631#1632#0" expanded="false" />
+                <element signature="e#1658#1659#0" expanded="false" />
+                <element signature="e#1700#1701#0" expanded="false" />
+                <element signature="e#1731#1732#0" expanded="false" />
+                <element signature="e#1758#1759#0" expanded="false" />
+                <element signature="e#1780#1781#0" expanded="false" />
+                <element signature="e#1815#1816#0" expanded="false" />
+                <element signature="e#1836#1837#0" expanded="false" />
+                <element signature="e#1864#1865#0" expanded="false" />
+                <element signature="e#1887#1888#0" expanded="false" />
+                <element signature="e#1979#1980#0" expanded="false" />
+                <element signature="e#2006#2007#0" expanded="false" />
+                <element signature="e#2051#2052#0" expanded="false" />
+                <element signature="e#2082#2083#0" expanded="false" />
+                <element signature="e#2107#2108#0" expanded="false" />
+                <element signature="e#2130#2131#0" expanded="false" />
+                <element signature="e#2164#2165#0" expanded="false" />
+                <element signature="e#2187#2188#0" expanded="false" />
+                <element signature="e#2214#2215#0" expanded="false" />
+                <element signature="e#2236#2237#0" expanded="false" />
+                <element signature="e#2272#2273#0" expanded="false" />
+                <element signature="e#2293#2294#0" expanded="false" />
+                <element signature="e#2333#2334#0" expanded="false" />
+                <element signature="e#2362#2363#0" expanded="false" />
+                <element signature="e#2390#2391#0" expanded="false" />
+                <element signature="e#2416#2417#0" expanded="false" />
+                <element signature="e#2450#2451#0" expanded="false" />
+                <element signature="e#2477#2478#0" expanded="false" />
+                <element signature="e#2524#2525#0" expanded="false" />
+                <element signature="e#2555#2556#0" expanded="false" />
+                <element signature="e#2581#2582#0" expanded="false" />
+                <element signature="e#2604#2605#0" expanded="false" />
+                <element signature="e#2639#2640#0" expanded="false" />
+                <element signature="e#2662#2663#0" expanded="false" />
+                <element signature="e#2694#2695#0" expanded="false" />
+                <element signature="e#2720#2721#0" expanded="false" />
+                <element signature="e#2764#2765#0" expanded="false" />
+                <element signature="e#2793#2794#0" expanded="false" />
+                <element signature="e#3627#3628#0" expanded="false" />
+                <element signature="e#3655#3656#0" expanded="false" />
+                <element signature="e#3696#3697#0" expanded="false" />
+                <element signature="e#3727#3728#0" expanded="false" />
+                <element signature="e#3756#3757#0" expanded="false" />
+                <element signature="e#3784#3785#0" expanded="false" />
+                <element signature="e#3825#3826#0" expanded="false" />
+                <element signature="e#3856#3857#0" expanded="false" />
+                <element signature="e#3887#3888#0" expanded="false" />
+                <element signature="e#3917#3918#0" expanded="false" />
+                <element signature="e#3962#3963#0" expanded="false" />
+                <element signature="e#3997#3998#0" expanded="false" />
+                <element signature="e#4026#4027#0" expanded="false" />
+                <element signature="e#4054#4055#0" expanded="false" />
+                <element signature="e#4095#4096#0" expanded="false" />
+                <element signature="e#4126#4127#0" expanded="false" />
+                <element signature="e#4578#4579#0" expanded="false" />
+                <element signature="e#4604#4605#0" expanded="false" />
+                <element signature="e#4650#4651#0" expanded="false" />
+                <element signature="e#4677#4678#0" expanded="false" />
+                <element signature="e#4715#4716#0" expanded="false" />
+                <element signature="e#4748#4749#0" expanded="false" />
+                <element signature="e#4803#4804#0" expanded="false" />
+                <element signature="e#4844#4845#0" expanded="false" />
+                <element signature="e#5101#5102#0" expanded="false" />
+                <element signature="e#5128#5129#0" expanded="false" />
+                <element signature="e#5170#5171#0" expanded="false" />
+                <element signature="e#5199#5200#0" expanded="false" />
+                <element signature="e#5229#5230#0" expanded="false" />
+                <element signature="e#5255#5256#0" expanded="false" />
+                <element signature="e#5295#5296#0" expanded="false" />
+                <element signature="e#5322#5323#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -341,8 +650,8 @@
       <file leaf-file-name="StartApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/StartApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -351,12 +660,35 @@
       <file leaf-file-name="StartConsumerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="262">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding>
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReferenceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/dubbo/config/ReferenceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="381" column="71" selection-start-line="381" selection-start-column="71" selection-end-line="381" selection-end-column="71" />
+              <folding>
+                <element signature="e#3329#3933#0" expanded="true" />
+                <element signature="e#3932#3933#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/dubbo/common/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="470" column="31" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -364,8 +696,8 @@
       <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="372">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#575#576#0" expanded="true" />
@@ -375,11 +707,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="419">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -390,7 +742,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#379#380#0" expanded="false" />
+                <element signature="e#441#442#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -398,12 +754,9 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="243">
               <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -413,7 +766,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#4573#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -423,7 +779,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#1123#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -479,18 +837,23 @@
         <option value="$PROJECT_DIR$/spring-boot-dubbo/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-cloud/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/StartApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo.consumer/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/StartApplication.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/spring-boot-learn/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/util/RedisBaseUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/controller/RedisTestController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" />
       </list>
     </option>
   </component>
@@ -510,7 +873,38 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot-dubbo-consumer" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot-dubbo-consumer" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="PhpServers">
     <servers />
@@ -533,6 +927,9 @@
             <id>Android &gt; Lint &gt; Correctness</id>
           </State>
           <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
             <id>Gradle</id>
           </State>
           <State>
@@ -547,7 +944,18 @@
           <State>
             <id>Probable bugsGradle</id>
           </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -576,14 +984,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SpringBootCloud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -596,13 +1009,130 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-dubbo-provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-dubbo-provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-dubbo-provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-dubbo-provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-dubbo-provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/" />
+    <property name="last_opened_file_path" value="G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -621,7 +1151,7 @@
       <recent name="D:\CUST\workspace\SpringBootCloud\sspring-boot-learn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Spring Boot.StartConsumerApplication">
     <configuration default="false" name="StartConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1183,9 +1713,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.StartConsumerApplication" />
         <item index="1" class="java.lang.String" itemvalue="Application.StartApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.StartConsumerApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -1218,7 +1748,8 @@
       <workItem from="1508861679992" duration="863000" />
       <workItem from="1509634624640" duration="5874000" />
       <workItem from="1509719439282" duration="6642000" />
-      <workItem from="1509893774718" duration="557000" />
+      <workItem from="1509893774718" duration="593000" />
+      <workItem from="1510059746437" duration="4741000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1508862532123</created>
@@ -1241,11 +1772,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509722212119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增Redis小例子">
+      <created>1509894354820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509894354820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19204000" />
+    <option name="totallyTimeSpent" value="23981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
@@ -1258,22 +1796,22 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21309656" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13048129" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31409544" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2935829" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19358289" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46836847" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27302995" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1316,10 +1854,20 @@
     <MESSAGE value="调整目录结构" />
     <MESSAGE value="新增Dubbo服务" />
     <MESSAGE value="新增Dubbo服务消费者模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增Dubbo服务消费者模块" />
+    <MESSAGE value="新增Redis小例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增Redis小例子" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/controller/RedisTestController.java</url>
+          <line>13</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1327,184 +1875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shared/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/jar/mvn/repository/org/springframework/boot/spring-boot-starter-data-redis/1.5.8.RELEASE/spring-boot-starter-data-redis-1.5.8.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/jar/mvn/repository/org/springframework/cloud/spring-cloud-dependencies/Brixton.RELEASE/spring-cloud-dependencies-Brixton.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.1.0.RELEASE/spring-cloud-netflix-eureka-server-1.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/jar/mvn/repository/org/springframework/cloud/spring-cloud-dependencies/Dalston.RELEASE/spring-cloud-dependencies-Dalston.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Protocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-cloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-learn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shared/src/main/java/com/zkn/spring/shared/dto/UserInfoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/StringRedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/jar/mvn/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2997">
@@ -1523,7 +1893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1047">
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1531,7 +1900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-642">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1539,7 +1907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1547,7 +1914,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#0#3474#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,9 +1940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#2036#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,7 +1948,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#0#8640#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1589,7 +1960,59 @@
         <state relative-caret-position="7560">
           <caret line="343" column="20" selection-start-line="343" selection-start-column="20" selection-end-line="343" selection-end-column="20" />
           <folding>
-            <element signature="e#0#18753#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5215#5216#0" expanded="false" />
+            <element signature="e#5248#5249#0" expanded="false" />
+            <element signature="e#5467#5468#0" expanded="false" />
+            <element signature="e#5525#5526#0" expanded="false" />
+            <element signature="e#5800#5801#0" expanded="false" />
+            <element signature="e#5833#5834#0" expanded="false" />
+            <element signature="e#6630#6631#0" expanded="false" />
+            <element signature="e#6671#6672#0" expanded="false" />
+            <element signature="e#8012#8013#0" expanded="false" />
+            <element signature="e#8036#8037#0" expanded="false" />
+            <element signature="e#12851#12852#0" expanded="false" />
+            <element signature="e#12873#12874#0" expanded="false" />
+            <element signature="e#13002#13003#0" expanded="false" />
+            <element signature="e#13033#13034#0" expanded="false" />
+            <element signature="e#13179#13180#0" expanded="false" />
+            <element signature="e#13206#13207#0" expanded="false" />
+            <element signature="e#13321#13322#0" expanded="false" />
+            <element signature="e#13341#13342#0" expanded="false" />
+            <element signature="e#13500#13501#0" expanded="false" />
+            <element signature="e#13522#13523#0" expanded="false" />
+            <element signature="e#13691#13692#0" expanded="false" />
+            <element signature="e#13722#13723#0" expanded="false" />
+            <element signature="e#13849#13850#0" expanded="false" />
+            <element signature="e#13867#13868#0" expanded="false" />
+            <element signature="e#14004#14005#0" expanded="false" />
+            <element signature="e#14027#14028#0" expanded="false" />
+            <element signature="e#14136#14137#0" expanded="false" />
+            <element signature="e#14159#14160#0" expanded="false" />
+            <element signature="e#14313#14314#0" expanded="false" />
+            <element signature="e#14346#14347#0" expanded="false" />
+            <element signature="e#14438#14439#0" expanded="false" />
+            <element signature="e#14459#14460#0" expanded="false" />
+            <element signature="e#14574#14575#0" expanded="false" />
+            <element signature="e#14603#14604#0" expanded="false" />
+            <element signature="e#14736#14737#0" expanded="false" />
+            <element signature="e#14757#14758#0" expanded="false" />
+            <element signature="e#14905#14906#0" expanded="false" />
+            <element signature="e#14934#14935#0" expanded="false" />
+            <element signature="e#15046#15047#0" expanded="false" />
+            <element signature="e#15070#15071#0" expanded="false" />
+            <element signature="e#15237#15238#0" expanded="false" />
+            <element signature="e#15272#15273#0" expanded="false" />
+            <element signature="e#15386#15387#0" expanded="false" />
+            <element signature="e#15407#15408#0" expanded="false" />
+            <element signature="e#15800#15801#0" expanded="false" />
+            <element signature="e#15824#15825#0" expanded="false" />
+            <element signature="e#16050#16051#0" expanded="false" />
+            <element signature="e#16085#16086#0" expanded="false" />
+            <element signature="e#16450#16451#0" expanded="false" />
+            <element signature="e#16491#16492#0" expanded="false" />
+            <element signature="e#17120#17121#0" expanded="false" />
+            <element signature="e#17156#17157#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1615,13 +2038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shared/src/main/java/com/zkn/spring/shared/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/jar/mvn/repository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1640,7 +2056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,74 +2063,225 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/util/RedisStringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/util/RedisBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/util/RedisStringUtil.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/exercise/util/RedisBaseUtil.java" />
     <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="29889">
           <caret line="1220" column="16" selection-start-line="1220" selection-start-column="16" selection-end-line="1220" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#0#117112#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6654#6655#0" expanded="false" />
+            <element signature="e#6693#6694#0" expanded="false" />
+            <element signature="e#6747#6748#0" expanded="false" />
+            <element signature="e#6775#6776#0" expanded="false" />
+            <element signature="e#7290#7291#0" expanded="false" />
+            <element signature="e#7317#7318#0" expanded="false" />
+            <element signature="e#7569#7570#0" expanded="false" />
+            <element signature="e#7608#7609#0" expanded="false" />
+            <element signature="e#9637#9638#0" expanded="false" />
+            <element signature="e#9667#9668#0" expanded="false" />
+            <element signature="e#9702#9703#0" expanded="false" />
+            <element signature="e#9736#9737#0" expanded="false" />
+            <element signature="e#10982#10983#0" expanded="false" />
+            <element signature="e#11001#11002#0" expanded="false" />
+            <element signature="e#11179#11180#0" expanded="false" />
+            <element signature="e#11211#11212#0" expanded="false" />
+            <element signature="e#11244#11245#0" expanded="false" />
+            <element signature="e#11276#11277#0" expanded="false" />
+            <element signature="e#12421#12422#0" expanded="false" />
+            <element signature="e#12469#12470#0" expanded="false" />
+            <element signature="e#12674#12675#0" expanded="false" />
+            <element signature="e#12725#12726#0" expanded="false" />
+            <element signature="e#12788#12789#0" expanded="false" />
+            <element signature="e#12816#12817#0" expanded="false" />
+            <element signature="e#16142#16143#0" expanded="false" />
+            <element signature="e#16163#16164#0" expanded="false" />
+            <element signature="e#62574#62575#0" expanded="false" />
+            <element signature="e#62623#62624#0" expanded="false" />
+            <element signature="e#62863#62864#0" expanded="false" />
+            <element signature="e#62906#62907#0" expanded="false" />
+            <element signature="e#64812#64813#0" expanded="false" />
+            <element signature="e#64857#64858#0" expanded="false" />
+            <element signature="e#71079#71080#0" expanded="false" />
+            <element signature="e#71127#71128#0" expanded="false" />
+            <element signature="e#85911#85912#0" expanded="false" />
+            <element signature="e#85937#85938#0" expanded="false" />
+            <element signature="e#85971#85972#0" expanded="false" />
+            <element signature="e#86033#86034#0" expanded="false" />
+            <element signature="e#100645#100646#0" expanded="false" />
+            <element signature="e#100677#100678#0" expanded="false" />
+            <element signature="e#106228#106229#0" expanded="false" />
+            <element signature="e#106264#106265#0" expanded="false" />
+            <element signature="e#106465#106466#0" expanded="false" />
+            <element signature="e#106532#106533#0" expanded="false" />
+            <element signature="e#107325#107326#0" expanded="false" />
+            <element signature="e#107364#107365#0" expanded="false" />
+            <element signature="e#107616#107617#0" expanded="false" />
+            <element signature="e#107653#107654#0" expanded="false" />
+            <element signature="e#108520#108521#0" expanded="false" />
+            <element signature="e#108559#108560#0" expanded="false" />
+            <element signature="e#108810#108811#0" expanded="false" />
+            <element signature="e#108846#108847#0" expanded="false" />
+            <element signature="e#109652#109653#0" expanded="false" />
+            <element signature="e#109691#109692#0" expanded="false" />
+            <element signature="e#109957#109958#0" expanded="false" />
+            <element signature="e#109993#109994#0" expanded="false" />
+            <element signature="e#110862#110863#0" expanded="false" />
+            <element signature="e#110901#110902#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="3510">
           <caret line="168" column="57" selection-start-line="168" selection-start-column="57" selection-end-line="168" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="e#0#7224#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1266#1267#0" expanded="false" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#1458#1459#0" expanded="false" />
+            <element signature="e#1498#1499#0" expanded="false" />
+            <element signature="e#1735#1736#0" expanded="false" />
+            <element signature="e#1788#1789#0" expanded="false" />
+            <element signature="e#1992#1993#0" expanded="false" />
+            <element signature="e#2042#2043#0" expanded="false" />
+            <element signature="e#2253#2254#0" expanded="false" />
+            <element signature="e#2303#2304#0" expanded="false" />
+            <element signature="e#2919#2920#0" expanded="false" />
+            <element signature="e#2976#2977#0" expanded="false" />
+            <element signature="e#3423#3424#0" expanded="false" />
+            <element signature="e#3465#3466#0" expanded="false" />
+            <element signature="e#4446#4447#0" expanded="false" />
+            <element signature="e#4490#4491#0" expanded="false" />
+            <element signature="e#6579#6580#0" expanded="false" />
+            <element signature="e#6622#6623#0" expanded="false" />
+            <element signature="e#6869#6870#0" expanded="false" />
+            <element signature="e#6927#6928#0" expanded="false" />
+            <element signature="e#7152#7153#0" expanded="false" />
+            <element signature="e#7203#7204#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="11853">
           <caret line="465" column="26" selection-start-line="465" selection-start-column="26" selection-end-line="465" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#0#19548#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="1512">
           <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="e#0#36150#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6093#6094#0" expanded="false" />
+            <element signature="e#6144#6145#0" expanded="false" />
+            <element signature="e#12518#12519#0" expanded="false" />
+            <element signature="e#12553#12554#0" expanded="false" />
+            <element signature="e#13281#13282#0" expanded="false" />
+            <element signature="e#13301#13302#0" expanded="false" />
+            <element signature="e#13550#13551#0" expanded="false" />
+            <element signature="e#13580#13581#0" expanded="false" />
+            <element signature="e#13871#13872#0" expanded="false" />
+            <element signature="e#13918#13919#0" expanded="false" />
+            <element signature="e#14164#14165#0" expanded="false" />
+            <element signature="e#14201#14202#0" expanded="false" />
+            <element signature="e#14727#14728#0" expanded="false" />
+            <element signature="e#14758#14759#0" expanded="false" />
+            <element signature="e#15136#15137#0" expanded="false" />
+            <element signature="e#15178#15179#0" expanded="false" />
+            <element signature="e#15429#15430#0" expanded="false" />
+            <element signature="e#15467#15468#0" expanded="false" />
+            <element signature="e#15639#15640#0" expanded="false" />
+            <element signature="e#15666#15667#0" expanded="false" />
+            <element signature="e#15923#15924#0" expanded="false" />
+            <element signature="e#15963#15964#0" expanded="false" />
+            <element signature="e#16141#16142#0" expanded="false" />
+            <element signature="e#16170#16171#0" expanded="false" />
+            <element signature="e#16315#16316#0" expanded="false" />
+            <element signature="e#16346#16347#0" expanded="false" />
+            <element signature="e#16613#16614#0" expanded="false" />
+            <element signature="e#16662#16663#0" expanded="false" />
+            <element signature="e#16813#16814#0" expanded="false" />
+            <element signature="e#16846#16847#0" expanded="false" />
+            <element signature="e#17312#17313#0" expanded="false" />
+            <element signature="e#17342#17343#0" expanded="false" />
+            <element signature="e#17715#17716#0" expanded="false" />
+            <element signature="e#17762#17763#0" expanded="false" />
+            <element signature="e#17928#17929#0" expanded="false" />
+            <element signature="e#17971#17972#0" expanded="false" />
+            <element signature="e#18256#18257#0" expanded="false" />
+            <element signature="e#18301#18302#0" expanded="false" />
+            <element signature="e#22964#22965#0" expanded="false" />
+            <element signature="e#23007#23008#0" expanded="false" />
+            <element signature="e#24562#24563#0" expanded="false" />
+            <element signature="e#24602#24603#0" expanded="false" />
+            <element signature="e#25279#25280#0" expanded="false" />
+            <element signature="e#25320#25321#0" expanded="false" />
+            <element signature="e#25623#25624#0" expanded="false" />
+            <element signature="e#25667#25668#0" expanded="false" />
+            <element signature="e#25877#25878#0" expanded="false" />
+            <element signature="e#25927#25928#0" expanded="false" />
+            <element signature="e#26081#26082#0" expanded="false" />
+            <element signature="e#26121#26122#0" expanded="false" />
+            <element signature="e#26728#26729#0" expanded="false" />
+            <element signature="e#26787#26788#0" expanded="false" />
+            <element signature="e#26981#26982#0" expanded="false" />
+            <element signature="e#27022#27023#0" expanded="false" />
+            <element signature="e#27607#27608#0" expanded="false" />
+            <element signature="e#27648#27649#0" expanded="false" />
+            <element signature="e#29790#29791#0" expanded="false" />
+            <element signature="e#29832#29833#0" expanded="false" />
+            <element signature="e#31725#31726#0" expanded="false" />
+            <element signature="e#31787#31788#0" expanded="false" />
+            <element signature="e#32144#32145#0" expanded="false" />
+            <element signature="e#32205#32206#0" expanded="false" />
+            <element signature="e#32260#32261#0" expanded="false" />
+            <element signature="e#32320#32321#0" expanded="false" />
+            <element signature="e#32518#32519#0" expanded="false" />
+            <element signature="e#32579#32580#0" expanded="false" />
+            <element signature="e#33163#33164#0" expanded="false" />
+            <element signature="e#33223#33224#0" expanded="false" />
+            <element signature="e#33704#33705#0" expanded="false" />
+            <element signature="e#33760#33761#0" expanded="false" />
+            <element signature="e#33915#33916#0" expanded="false" />
+            <element signature="e#33969#33970#0" expanded="false" />
+            <element signature="e#36109#36110#0" expanded="false" />
+            <element signature="e#36146#36147#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://G:/jar/mvn/repository/org/springframework/data/spring-data-redis/1.8.8.RELEASE/spring-data-redis-1.8.8.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="864">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#5442#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-learn/src/main/java/com/zkn/springboot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="243">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,6 +2292,212 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shared/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/StartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3429">
+          <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-cloud/spring-boot-cloud.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7.jar!/com/alibaba/dubbo/config/annotation/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/101tec/zkclient/0.9/zkclient-0.9.jar!/org/I0Itec/zkclient/IZkStateListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="61" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-learn/spring-boot-learn.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-cloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/101tec/zkclient/0.9/zkclient-0.9-sources.jar!/org/I0Itec/zkclient/IZkStateListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7.jar!/com/alibaba/dubbo/config/ReferenceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="420" column="0" selection-start-line="420" selection-start-column="0" selection-end-line="420" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/dubbo/config/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shared/src/main/java/com/zkn/spring/shared/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/dubbo/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="470" column="31" selection-start-line="470" selection-start-column="31" selection-end-line="470" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jar/mvn/repository/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/dubbo/config/ReferenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="381" column="71" selection-start-line="381" selection-start-column="71" selection-end-line="381" selection-end-column="71" />
+          <folding>
+            <element signature="e#3329#3933#0" expanded="true" />
+            <element signature="e#3932#3933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1746,7 +2518,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1782,12 +2554,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-boot-dubbo-consumer</last-edited>
+          <last-edited>Spring|spring-boot-dubbo-consumer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3163051" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
