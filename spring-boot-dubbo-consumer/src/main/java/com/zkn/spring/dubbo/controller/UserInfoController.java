@@ -16,8 +16,8 @@ public class UserInfoController {
     private UserService userService;
 
     /**
-     * 获取用户信息
      *
+     *获取用户信息
      * @return
      */
     @RequestMapping("/getUserName")
