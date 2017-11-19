@@ -2,8 +2,6 @@
 server:
   port: 8003
 
-
-
 spring:
   profiles:
     active: dev
@@ -16,5 +14,6 @@ spring:
 management:
   security:
     enabled: false
+
 
 

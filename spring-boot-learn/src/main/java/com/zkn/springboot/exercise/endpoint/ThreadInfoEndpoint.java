@@ -1,6 +1,4 @@
-package com.zkn.springboot.exercise.endpoint;/**
- * Created by zkn on 2017/11/15.
- */
+package com.zkn.springboot.exercise.endpoint;
 
 import org.springframework.boot.actuate.endpoint.AbstractEndpoint;
 import org.springframework.stereotype.Component;
