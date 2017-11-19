@@ -12,7 +12,7 @@ import java.util.Map;
  * @date 2017/11/15 22:50
  */
 @Component
-public class ThreadInfoEndpoint extends AbstractEndpoint<Map<String, Object>> {
+public class ThreadInfoEndpoint extends AbstractEndpoint<Map<String, String>> {
 
     public ThreadInfoEndpoint() {
         //id
@@ -25,12 +25,12 @@ public class ThreadInfoEndpoint extends AbstractEndpoint<Map<String, Object>> {
      * @return the results of the invocation
      */
     @Override
-    public Map<String, Object> invoke() {
+    public Map<String, String> invoke() {
         ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
         //获取所有的线程信息
         ThreadInfo[] threadInfos = threadMXBean.dumpAllThreads(true, true);
         if (threadInfos != null && threadInfos.length > 0) {
-            Map<String, Object> map = new HashMap<>(threadInfos.length);
+            Map<String, String> map = new HashMap<>(threadInfos.length);
             for (ThreadInfo threadInfo : threadInfos) {
                 map.put(threadInfo.getThreadName(), getThreadDumpString(threadInfo));
             }
