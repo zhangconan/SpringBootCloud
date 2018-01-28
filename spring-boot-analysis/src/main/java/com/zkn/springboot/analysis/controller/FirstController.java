@@ -1,7 +1,6 @@
-package com.zkn.springboot.analysis.controller;/**
- * Created by zkn on 2017/11/26.
- */
+package com.zkn.springboot.analysis.controller;
 
+import com.zkn.springboot.analysis.domain.EnableConfigurationPropertiesDomain;
 import com.zkn.springboot.analysis.domain.PersonInfoDomain;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +18,12 @@ public class FirstController {
      */
     @Autowired
     private PersonInfoDomain personInfoDomain;
+    @Autowired
+    private EnableConfigurationPropertiesDomain propertiesDomain;
 
     @RequestMapping("index")
     public String index() {
-        System.out.println(personInfoDomain);
+        System.out.println(propertiesDomain);
         return "success";
     }
 }
