@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
+        <module name="dubbo-adaptive" />
         <module name="spring-boot-analysis" />
         <module name="spring-boot-boot" />
         <module name="spring-boot-dubbo-consumer" />
@@ -33,12 +18,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo-adaptive" target="1.8" />
       <module name="spring-boot-analysis" target="1.8" />
       <module name="spring-boot-boot" target="1.8" />
       <module name="spring-boot-cloud" target="1.8" />
       <module name="spring-boot-dubbo" target="1.6" />
       <module name="spring-boot-dubbo-consumer" target="1.8" />
-      <module name="spring-boot-dubbo-provider" target="1.6" />
+      <module name="spring-boot-dubbo-provider" target="1.8" />
       <module name="spring-boot-learn" target="1.8" />
       <module name="spring-boot-shared" target="1.5" />
       <module name="spring-cloud-consumer" target="1.8" />

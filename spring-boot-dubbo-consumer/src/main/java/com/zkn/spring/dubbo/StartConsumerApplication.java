@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ImportResource;
  * @date 2017/11/3
  */
 @SpringBootApplication
-@ImportResource(locations = "classpath:dubbo/consumer/dubbo-consumer.xml")
+@ImportResource(locations = "dubbo/consumer/dubbo-consumer.xml")
 public class StartConsumerApplication {
 
     public static void main(String[] args) {
