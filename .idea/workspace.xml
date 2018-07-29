@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85bf900-954e-44f9-9235-321ded634c20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-cloud/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-cloud/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" />
     </list>
     <ignored path="SpringBootCloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1030,7 +1019,7 @@
       <workItem from="1532447083378" duration="1837000" />
       <workItem from="1532528821729" duration="918000" />
       <workItem from="1532614213762" duration="4653000" />
-      <workItem from="1532701087938" duration="9207000" />
+      <workItem from="1532701087938" duration="9246000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1508862532123</created>
@@ -1123,11 +1112,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532848911403</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修改版本为2.6.2">
+      <created>1532866244676</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532866244676</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240472000" />
+    <option name="totallyTimeSpent" value="240511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1730,6 +1726,7 @@
         <watch expression="!checkExists(parentPath)" />
         <watch expression="getConsumerUrl()" />
         <watch expression="getUrl()" />
+        <watch expression="c3" />
       </configuration>
       <configuration name="Application">
         <watch expression="Arrays.toString(filters.toArray())" language="JAVA" custom="java.util.Arrays" />
