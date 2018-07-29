@@ -8,12 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <properties>
-        <dubbo.version>2.6.2</dubbo.version>
-        <zookeeper.version>0.9</zookeeper.version>
-        <spring.boot.shared>1.0-SNAPSHOT</spring.boot.shared>
-        <spring.dubbo.adaptive>1.0-SNAPSHOT</spring.dubbo.adaptive>
-    </properties>
     <artifactId>spring-boot-dubbo-provider</artifactId>
     <dependencies>
         <dependency>
@@ -59,12 +53,17 @@
         <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
-            <version>${zookeeper.version}</version>
+            <version>${zookeeper.zkclient.version}</version>
         </dependency>
+        <!--<dependency>-->
+        <!--<groupId>spring.boot.cloud</groupId>-->
+        <!--<artifactId>dubbo-adaptive</artifactId>-->
+        <!--<version>${spring.dubbo.adaptive}</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>spring.boot.cloud</groupId>
-            <artifactId>dubbo-adaptive</artifactId>
-            <version>${spring.dubbo.adaptive}</version>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${zookeeper.curator.version}</version>
         </dependency>
     </dependencies>
     <build>

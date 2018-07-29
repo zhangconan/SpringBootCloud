@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-analysis/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-adaptive/pom.xml" />
+        <option value="$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/pom.xml" />
       </list>
     </option>
   </component>

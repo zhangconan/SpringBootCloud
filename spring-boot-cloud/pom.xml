@@ -23,6 +23,11 @@
     <properties>
         <spring-cloud-version>Dalston.RELEASE</spring-cloud-version>
         <java.version>1.8</java.version>
+        <zookeeper.zkclient.version>0.9</zookeeper.zkclient.version>
+        <zookeeper.curator.version>4.0.1</zookeeper.curator.version>
+        <dubbo.version>2.6.2</dubbo.version>
+        <spring.boot.shared>1.0-SNAPSHOT</spring.boot.shared>
+        <spring.dubbo.adaptive>1.0-SNAPSHOT</spring.dubbo.adaptive>
     </properties>
     <dependencyManagement>
         <dependencies>
