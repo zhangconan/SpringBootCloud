@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringBootCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-adaptive/dubbo-adaptive.iml" filepath="$PROJECT_DIR$/dubbo-adaptive/dubbo-adaptive.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-analysis/spring-boot-analysis.iml" filepath="$PROJECT_DIR$/spring-boot-analysis/spring-boot-analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cloud/spring-boot-cloud.iml" filepath="$PROJECT_DIR$/spring-boot-cloud/spring-boot-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />

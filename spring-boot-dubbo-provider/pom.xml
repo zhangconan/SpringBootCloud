@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <properties>
-        <dubbo.version>2.5.7</dubbo.version>
+        <dubbo.version>2.6.2</dubbo.version>
         <zookeeper.version>0.9</zookeeper.version>
         <spring.boot.shared>1.0-SNAPSHOT</spring.boot.shared>
         <spring.dubbo.adaptive>1.0-SNAPSHOT</spring.dubbo.adaptive>
