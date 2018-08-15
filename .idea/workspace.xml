@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85bf900-954e-44f9-9235-321ded634c20" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/zkn/springboot/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-producer/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-cloud/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-cloud/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" />
     </list>
     <ignored path="SpringBootCloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +68,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-cloud/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="312">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -245,8 +234,8 @@
         <option value="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/pom.xml" />
         <option value="G:/jar/mvn/repository/org/springframework/cloud/spring-cloud-dependencies/Dalston.RELEASE/spring-cloud-dependencies-Dalston.RELEASE.pom" />
-        <option value="$PROJECT_DIR$/spring-boot-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cloud/pom.xml" />
       </list>
     </option>
   </component>
@@ -1020,7 +1009,7 @@
       <workItem from="1532614213762" duration="4653000" />
       <workItem from="1532701087938" duration="15282000" />
       <workItem from="1534346521148" duration="4845000" />
-      <workItem from="1534351400213" duration="979000" />
+      <workItem from="1534351400213" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1508862532123</created>
@@ -1124,7 +1113,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252371000" />
+    <option name="totallyTimeSpent" value="252414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2109,8 +2098,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-cloud/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="312">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

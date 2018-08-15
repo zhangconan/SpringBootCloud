@@ -16,8 +16,6 @@
     <modules>
         <module>../spring-boot-dubbo-provider</module>
         <module>../spring-boot-dubbo-consumer</module>
-        <module>../spring-cloud-consumer</module>
-        <module>../spring-cloud-producer</module>
         <module>../spring-boot-analysis</module>
     </modules>
     <properties>
