@@ -52,6 +52,11 @@
             </exclusions>
         </dependency>
         <dependency>
+            <artifactId>dubbo-adaptive</artifactId>
+            <groupId>zkn.dubbo.adaptive</groupId>
+            <version>${spring.dubbo.adaptive}</version>
+        </dependency>
+        <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
             <version>${zookeeper.zkclient.version}</version>
@@ -65,6 +70,11 @@
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
             <version>${zookeeper.curator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>${google.jsr.version}</version>
         </dependency>
     </dependencies>
     <build>

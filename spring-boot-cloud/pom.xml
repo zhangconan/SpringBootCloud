@@ -27,7 +27,8 @@
         <zookeeper.curator.version>4.0.1</zookeeper.curator.version>
         <dubbo.version>2.6.2</dubbo.version>
         <spring.boot.shared>1.0-SNAPSHOT</spring.boot.shared>
-        <spring.dubbo.adaptive>1.0-SNAPSHOT</spring.dubbo.adaptive>
+        <spring.dubbo.adaptive>2.6.2</spring.dubbo.adaptive>
+        <google.jsr.version>3.0.2</google.jsr.version>
     </properties>
     <dependencyManagement>
         <dependencies>

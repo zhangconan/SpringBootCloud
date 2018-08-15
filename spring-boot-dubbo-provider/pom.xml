@@ -55,15 +55,20 @@
             <artifactId>zkclient</artifactId>
             <version>${zookeeper.zkclient.version}</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>spring.boot.cloud</groupId>-->
-        <!--<artifactId>dubbo-adaptive</artifactId>-->
-        <!--<version>${spring.dubbo.adaptive}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <artifactId>dubbo-adaptive</artifactId>
+            <groupId>zkn.dubbo.adaptive</groupId>
+            <version>${spring.dubbo.adaptive}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
             <version>${zookeeper.curator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>${google.jsr.version}</version>
         </dependency>
     </dependencies>
     <build>
