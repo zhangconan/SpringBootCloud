@@ -9,7 +9,6 @@
 /spring-cloud-consumer/spring-cloud-consumer.iml
 /dubbo-adaptive/dubbo-adaptive.iml
 /spring-boot-shared/target/
-/spring-boot-dubbo/target/
 /spring-boot-dubbo-provider/target/
 /spring-boot-dubbo-consumer/target/
 /spring-boot-analysis/target/
@@ -24,5 +23,6 @@
 /.idea/workspace.xml
 /.idea/encodings.xml
 /.idea/copyright/
-/dubbo-adaptive/target
-dubbo-adaptive/target/
+/spring-boot-analysis/target
+/*/target
+/*/*.iml
