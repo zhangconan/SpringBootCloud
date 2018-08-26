@@ -4,6 +4,7 @@
         <groupId>spring.boot.parent</groupId>
         <artifactId>spring-boot-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../spring-boot-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-boot-web-analysis</artifactId>
@@ -15,6 +16,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
