@@ -13,6 +13,7 @@
         <module name="spring-boot-dubbo-provider" />
         <module name="spring-boot-learn-redis" />
         <module name="spring-boot-shared" />
+        <module name="spring-boot-web-analysis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="spring-boot-learn-redis" target="1.8" />
       <module name="spring-boot-parent" target="1.8" />
       <module name="spring-boot-shared" target="1.5" />
+      <module name="spring-boot-web-analysis" target="1.8" />
       <module name="spring-cloud-consumer" target="1.8" />
       <module name="spring-cloud-producer" target="1.8" />
     </bytecodeTargetLevel>
