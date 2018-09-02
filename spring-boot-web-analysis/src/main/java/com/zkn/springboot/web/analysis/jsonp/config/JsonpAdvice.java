@@ -9,6 +9,8 @@ import org.springframework.web.servlet.mvc.method.annotation.AbstractJsonpRespon
 import java.nio.charset.Charset;
 
 /**
+ * 不推荐的做法
+ *
  * @author zkn
  * @date 2018/8/26 21:29
  **/

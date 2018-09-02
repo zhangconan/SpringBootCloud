@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-adaptive" />
         <module name="spring-boot-analysis" />
+        <module name="spring-boot-aop" />
         <module name="spring-boot-boot" />
         <module name="spring-boot-dubbo-consumer" />
         <module name="spring-boot-dubbo-provider" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="dubbo-adaptive" target="1.8" />
       <module name="spring-boot-analysis" target="1.8" />
+      <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-boot" target="1.8" />
       <module name="spring-boot-cloud" target="1.8" />
       <module name="spring-boot-dubbo" target="1.6" />
