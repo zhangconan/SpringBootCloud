@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85bf900-954e-44f9-9235-321ded634c20" name="Default" comment="修改版本为2.6.2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/target/classes/com/zkn/spring/dubbo/StartApplication.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/target/classes/com/zkn/spring/dubbo/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/target/classes/config/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/target/classes/dubbo/provider/dubbo-provider.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/target/classes/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/dubbo-adaptive.iml" afterPath="$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/dubbo-adaptive.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/pom.xml" afterPath="$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-parent/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-parent/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-web-analysis/src/main/java/com/zkn/springboot/web/analysis/jsonp/JsonpApplication.java" afterPath="$PROJECT_DIR$/spring-boot-web-analysis/src/main/java/com/zkn/springboot/web/analysis/jsonp/JsonpApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-web-analysis/src/main/java/com/zkn/springboot/web/analysis/jsonp/config/JsonpAdvice.java" afterPath="$PROJECT_DIR$/spring-boot-web-analysis/src/main/java/com/zkn/springboot/web/analysis/jsonp/config/JsonpAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/alibaba/dubbo/config/AbstractConfig.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/src/main/java/com/alibaba/dubbo/config/AbstractConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/StartConsumerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/src/main/java/com/zkn/spring/dubbo/controller/UserInfoController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/config/application.yml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/src/main/resources/config/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/src/main/resources/dubbo/consumer/dubbo-consumer.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-consumer/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/src/main/resources/logback.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/StartApplication.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/StartApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/src/main/java/com/zkn/spring/dubbo/service/impl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/config/application.yml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/src/main/resources/config/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/src/main/resources/dubbo/provider/dubbo-provider.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-dubbo-provider/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/src/main/resources/logback.xml" />
     </list>
     <ignored path="SpringBootCloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +57,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3475">
               <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#39555#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#8813#8814#0" expanded="false" />
+                <element signature="e#8861#8862#0" expanded="false" />
+                <element signature="e#27536#27537#0" expanded="false" />
+                <element signature="e#27566#27567#0" expanded="false" />
+                <element signature="e#31522#31523#0" expanded="false" />
+                <element signature="e#31561#31562#0" expanded="false" />
+                <element signature="e#31616#31617#0" expanded="false" />
+                <element signature="e#31651#31652#0" expanded="false" />
+                <element signature="e#31902#31903#0" expanded="false" />
+                <element signature="e#31929#31930#0" expanded="false" />
+                <element signature="e#31995#31996#0" expanded="false" />
+                <element signature="e#32044#32045#0" expanded="false" />
+                <element signature="e#32891#32892#0" expanded="false" />
+                <element signature="e#32919#32920#0" expanded="false" />
+                <element signature="e#33542#33543#0" expanded="false" />
+                <element signature="e#33571#33572#0" expanded="false" />
+                <element signature="e#38720#38721#0" expanded="false" />
+                <element signature="e#38775#38776#0" expanded="false" />
+                <element signature="e#38817#38818#0" expanded="false" />
+                <element signature="e#38861#38862#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +90,40 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1050">
               <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#14809#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4281#4282#0" expanded="false" />
+                <element signature="e#4323#4324#0" expanded="false" />
+                <element signature="e#5459#5460#0" expanded="false" />
+                <element signature="e#5502#5503#0" expanded="false" />
+                <element signature="e#6582#6583#0" expanded="false" />
+                <element signature="e#6625#6626#0" expanded="false" />
+                <element signature="e#10160#10161#0" expanded="false" />
+                <element signature="e#10216#10217#0" expanded="false" />
+                <element signature="e#12043#12044#0" expanded="false" />
+                <element signature="e#12073#12074#0" expanded="false" />
+                <element signature="e#12144#12145#0" expanded="false" />
+                <element signature="e#12185#12186#0" expanded="false" />
+                <element signature="e#12232#12233#0" expanded="false" />
+                <element signature="e#12266#12267#0" expanded="false" />
+                <element signature="e#12333#12334#0" expanded="false" />
+                <element signature="e#12370#12371#0" expanded="false" />
+                <element signature="e#12419#12420#0" expanded="false" />
+                <element signature="e#12449#12450#0" expanded="false" />
+                <element signature="e#12525#12526#0" expanded="false" />
+                <element signature="e#12568#12569#0" expanded="false" />
+                <element signature="e#12623#12624#0" expanded="false" />
+                <element signature="e#12656#12657#0" expanded="false" />
+                <element signature="e#12693#12694#0" expanded="false" />
+                <element signature="e#12736#12737#0" expanded="false" />
+                <element signature="e#13161#13162#0" expanded="false" />
+                <element signature="e#13204#13205#0" expanded="false" />
+                <element signature="e#13273#13274#0" expanded="false" />
+                <element signature="e#13312#13313#0" expanded="false" />
+                <element signature="e#13390#13391#0" expanded="false" />
+                <element signature="e#13435#13436#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +141,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="350">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -155,7 +183,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="750">
               <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-              <folding />
+              <folding>
+                <element signature="e#0#2276#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,7 +206,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -289,8 +322,8 @@
         <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spring-boot-web-analysis/src/main/java/com/zkn/springboot/web/analysis/jsonp/JsonpApplication.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -550,6 +583,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring-context-5.0.8.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringBootCloud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1238,7 +1281,7 @@
       <workItem from="1537373678517" duration="3618000" />
       <workItem from="1546179608785" duration="6642000" />
       <workItem from="1546698697972" duration="691000" />
-      <workItem from="1551112040376" duration="116000" />
+      <workItem from="1551112040376" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1508862532123</created>
@@ -1338,11 +1381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532866244676</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="调整目录结构">
+      <created>1551112217974</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551112217974</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300598000" />
+    <option name="totallyTimeSpent" value="300749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1442,7 +1492,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整目录结构" />
     <MESSAGE value="新增Dubbo服务" />
     <MESSAGE value="新增Dubbo服务消费者模块" />
     <MESSAGE value="新增Redis小例子" />
@@ -1453,7 +1502,8 @@
     <MESSAGE value="新增EnableConfigurationProperties" />
     <MESSAGE value="移除dubbo-adaptive" />
     <MESSAGE value="修改版本为2.6.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改版本为2.6.2" />
+    <MESSAGE value="调整目录结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整目录结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2230,7 +2280,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2262,7 +2314,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#14809#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4281#4282#0" expanded="false" />
+            <element signature="e#4323#4324#0" expanded="false" />
+            <element signature="e#5459#5460#0" expanded="false" />
+            <element signature="e#5502#5503#0" expanded="false" />
+            <element signature="e#6582#6583#0" expanded="false" />
+            <element signature="e#6625#6626#0" expanded="false" />
+            <element signature="e#10160#10161#0" expanded="false" />
+            <element signature="e#10216#10217#0" expanded="false" />
+            <element signature="e#12043#12044#0" expanded="false" />
+            <element signature="e#12073#12074#0" expanded="false" />
+            <element signature="e#12144#12145#0" expanded="false" />
+            <element signature="e#12185#12186#0" expanded="false" />
+            <element signature="e#12232#12233#0" expanded="false" />
+            <element signature="e#12266#12267#0" expanded="false" />
+            <element signature="e#12333#12334#0" expanded="false" />
+            <element signature="e#12370#12371#0" expanded="false" />
+            <element signature="e#12419#12420#0" expanded="false" />
+            <element signature="e#12449#12450#0" expanded="false" />
+            <element signature="e#12525#12526#0" expanded="false" />
+            <element signature="e#12568#12569#0" expanded="false" />
+            <element signature="e#12623#12624#0" expanded="false" />
+            <element signature="e#12656#12657#0" expanded="false" />
+            <element signature="e#12693#12694#0" expanded="false" />
+            <element signature="e#12736#12737#0" expanded="false" />
+            <element signature="e#13161#13162#0" expanded="false" />
+            <element signature="e#13204#13205#0" expanded="false" />
+            <element signature="e#13273#13274#0" expanded="false" />
+            <element signature="e#13312#13313#0" expanded="false" />
+            <element signature="e#13390#13391#0" expanded="false" />
+            <element signature="e#13435#13436#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2270,7 +2355,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3475">
           <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#39555#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8813#8814#0" expanded="false" />
+            <element signature="e#8861#8862#0" expanded="false" />
+            <element signature="e#27536#27537#0" expanded="false" />
+            <element signature="e#27566#27567#0" expanded="false" />
+            <element signature="e#31522#31523#0" expanded="false" />
+            <element signature="e#31561#31562#0" expanded="false" />
+            <element signature="e#31616#31617#0" expanded="false" />
+            <element signature="e#31651#31652#0" expanded="false" />
+            <element signature="e#31902#31903#0" expanded="false" />
+            <element signature="e#31929#31930#0" expanded="false" />
+            <element signature="e#31995#31996#0" expanded="false" />
+            <element signature="e#32044#32045#0" expanded="false" />
+            <element signature="e#32891#32892#0" expanded="false" />
+            <element signature="e#32919#32920#0" expanded="false" />
+            <element signature="e#33542#33543#0" expanded="false" />
+            <element signature="e#33571#33572#0" expanded="false" />
+            <element signature="e#38720#38721#0" expanded="false" />
+            <element signature="e#38775#38776#0" expanded="false" />
+            <element signature="e#38817#38818#0" expanded="false" />
+            <element signature="e#38861#38862#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2278,7 +2386,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="e#0#2276#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2300,8 +2411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="350">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>

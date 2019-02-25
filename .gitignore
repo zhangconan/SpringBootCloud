@@ -1,4 +1,5 @@
 /.idea/
+/.idea
 /spring-boot-parent/spring-boot-parent.iml
 /spring-boot-shared/target/
 /spring-boot-analysis/target/
