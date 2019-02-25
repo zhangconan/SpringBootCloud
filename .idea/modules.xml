@@ -6,8 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/dubbo-adaptive.iml" filepath="$PROJECT_DIR$/../SourceCode/dubbo-adaptive/dubbo-adaptive/dubbo-adaptive.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-analysis/spring-boot-analysis.iml" filepath="$PROJECT_DIR$/spring-boot-analysis/spring-boot-analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" filepath="$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-consumer/spring-boot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provider/spring-boot-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-learn-redis/spring-boot-learn-redis.iml" filepath="$PROJECT_DIR$/spring-boot-learn-redis/spring-boot-learn-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-parent/spring-boot-parent.iml" filepath="$PROJECT_DIR$/spring-boot-parent/spring-boot-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-shared/spring-boot-shared.iml" filepath="$PROJECT_DIR$/spring-boot-shared/spring-boot-shared.iml" />

@@ -1,15 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <parent>
         <groupId>spring.boot.parent</groupId>
         <artifactId>spring-boot-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../spring-boot-parent/pom.xml</relativePath>
     </parent>
+    <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>spring-boot-dubbo-provider</artifactId>
+    <artifactId>spring-boot-dubbo</artifactId>
+    <modules>
+        <module>/spring-boot-dubbo-provider</module>
+        <module>/spring-boot-dubbo-consumer</module>
+    </modules>
+    <properties>
+        <dubbo.version>2.6.2</dubbo.version>
+        <spring.dubbo.adaptive>2.6.2</spring.dubbo.adaptive>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -21,29 +28,13 @@
             <version>${spring.boot.shared}</version>
         </dependency>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>${dubbo.version}</version>
+            <artifactId>dubbo-adaptive</artifactId>
+            <groupId>zkn.dubbo.adaptive</groupId>
+            <version>${spring.dubbo.adaptive}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework</groupId>
-                    <artifactId>spring-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-beans</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-aop</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-context</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring</artifactId>
+                    <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -53,9 +44,9 @@
             <version>${zookeeper.zkclient.version}</version>
         </dependency>
         <dependency>
-            <artifactId>dubbo-adaptive</artifactId>
-            <groupId>zkn.dubbo.adaptive</groupId>
-            <version>${spring.dubbo.adaptive}</version>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-client</artifactId>
+            <version>${zookeeper.curator.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>

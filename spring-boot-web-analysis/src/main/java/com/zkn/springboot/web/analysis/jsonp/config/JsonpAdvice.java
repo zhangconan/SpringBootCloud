@@ -14,7 +14,7 @@ import java.nio.charset.Charset;
  * @author zkn
  * @date 2018/8/26 21:29
  **/
-@ControllerAdvice(basePackages = "com.zkn.springboot.web.analysis.jsonp.controller")
+@ControllerAdvice(basePackages = "com.zkn.springboot.web.dubbo.jsonp.controller")
 public class JsonpAdvice extends AbstractJsonpResponseBodyAdvice {
 
     public JsonpAdvice() {

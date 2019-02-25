@@ -14,20 +14,17 @@
         <version>2.0.4.RELEASE</version>
     </parent>
     <modules>
-        <module>../spring-boot-dubbo-provider</module>
-        <module>../spring-boot-dubbo-consumer</module>
         <module>../spring-boot-analysis</module>
         <module>../spring-boot-learn-redis</module>
         <module>../spring-boot-web-analysis</module>
         <module>../spring-boot-aop</module>
+        <module>../spring-boot-dubbo</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
+        <spring.boot.shared>1.0-SNAPSHOT</spring.boot.shared>
         <zookeeper.zkclient.version>0.9</zookeeper.zkclient.version>
         <zookeeper.curator.version>4.0.1</zookeeper.curator.version>
-        <dubbo.version>2.6.2</dubbo.version>
-        <spring.boot.shared>1.0-SNAPSHOT</spring.boot.shared>
-        <spring.dubbo.adaptive>2.6.2</spring.dubbo.adaptive>
         <google.jsr.version>3.0.2</google.jsr.version>
     </properties>
     <build>

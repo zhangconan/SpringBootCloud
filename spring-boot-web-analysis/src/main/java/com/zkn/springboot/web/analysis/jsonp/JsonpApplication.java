@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author zkn
  * @date 2018/8/26 21:35
  */
-
 @SpringBootApplication
 public class JsonpApplication {
 
