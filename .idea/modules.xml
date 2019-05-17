@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-parent/spring-boot-parent.iml" filepath="$PROJECT_DIR$/spring-boot-parent/spring-boot-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-shared/spring-boot-shared.iml" filepath="$PROJECT_DIR$/spring-boot-shared/spring-boot-shared.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-analysis/spring-boot-web-analysis.iml" filepath="$PROJECT_DIR$/spring-boot-web-analysis/spring-boot-web-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-aop/spring.boot.aop.iml" filepath="$PROJECT_DIR$/spring-boot-aop/spring.boot.aop.iml" />
     </modules>
   </component>
 </project>
