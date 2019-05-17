@@ -1,19 +1,20 @@
-package com.zkn.spring.dubbo;
+package com.zkn.spring.dubbo.xml;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 /**
- *
  * @author zkn
- * @date 2017/11/3
+ * @date 2017/11/2
  */
 @SpringBootApplication
-@ImportResource(locations = "dubbo/consumer/dubbo-consumer.xml")
-public class StartConsumerApplication {
+@ImportResource(locations = {"classpath:dubbo/provider/dubbo-provider.xml"})
+public class StartApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StartConsumerApplication.class, args);
+
+        SpringApplication.run(StartApplication.class, args);
     }
 }

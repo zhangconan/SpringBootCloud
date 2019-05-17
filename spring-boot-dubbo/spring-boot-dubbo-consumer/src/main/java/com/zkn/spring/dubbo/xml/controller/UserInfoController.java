@@ -1,4 +1,4 @@
-package com.zkn.spring.dubbo.controller;
+package com.zkn.spring.dubbo.xml.controller;
 
 import com.zkn.spring.shared.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

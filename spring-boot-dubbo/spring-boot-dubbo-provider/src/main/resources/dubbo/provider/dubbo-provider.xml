@@ -16,5 +16,5 @@
     <!-- 声明需要暴露的服务接口 注解的方式 -->
     <dubbo:service interface="com.zkn.spring.shared.service.UserService" ref="userService"/>
 
-    <bean id="userService" class="com.zkn.spring.dubbo.service.impl.UserServiceImpl"/>
+    <bean id="userService" class="com.zkn.spring.dubbo.xml.service.impl.UserServiceImpl"/>
 </beans>

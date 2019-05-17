@@ -14,7 +14,8 @@
         <module>/spring-boot-dubbo-consumer</module>
     </modules>
     <properties>
-        <spring.dubbo.adaptive>2.7.0</spring.dubbo.adaptive>
+        <spring.dubbo.adaptive>2.7.1</spring.dubbo.adaptive>
+        <dubbo.version>2.7.1</dubbo.version>
     </properties>
     <dependencies>
         <dependency>
@@ -38,19 +39,10 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.101tec</groupId>
-            <artifactId>zkclient</artifactId>
-            <version>${zookeeper.zkclient.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-client</artifactId>
-            <version>${zookeeper.curator.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-framework</artifactId>
-            <version>${zookeeper.curator.version}</version>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-dependencies-zookeeper</artifactId>
+            <version>${dubbo.version}</version>
+            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>com.google.code.findbugs</groupId>

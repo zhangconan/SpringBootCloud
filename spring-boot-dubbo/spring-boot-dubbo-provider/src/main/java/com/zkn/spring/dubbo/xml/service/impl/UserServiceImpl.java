@@ -1,4 +1,4 @@
-package com.zkn.spring.dubbo.service.impl;
+package com.zkn.spring.dubbo.xml.service.impl;
 
 import com.zkn.spring.shared.service.UserService;
 import org.springframework.stereotype.Service;
